@@ -1,4 +1,4 @@
-# M300_LB02
+# M300_LB02-
 
 ### Kennt die Docker-Befehle
 
