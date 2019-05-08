@@ -61,9 +61,9 @@ Ein Docker-Container ist eine isolierte Umgebung für das Paketieren und Ausfüh
 ### Kennt die Docker-Befehle
 
 | Befehle           | Beschreibung
-| --------------    | -----------
+| --------------    | ------------------------------------
 | docker run        | Befehl zum Starten neuer Container
-| docker ps         | Überblick über die aktuellen Container, wie z.B. Namen, IDs und Status
+| docker ps         | Überblick über die aktuellen Container, wie z.B. Namen, IDs und Status                                            
 | docker images     | Liste lokaler Images aus, wobei Informationen zu Repository-Namen, Tag-Namen und Grösse enthalten sind
 | docker rm         | Entfernt einen oder mehrere Container. Gibt die Namen oder IDs erfolgreich gelöschter Container zurück
 | docker rmi        | Löscht das oder die angegebenen Images. Diese werden durch ihre ID oder Repository- und Tag-Namen spezifiziert
