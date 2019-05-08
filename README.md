@@ -60,7 +60,7 @@ Ein Image ist eine unveränderliche Datei, die im Wesentlichen eine Momentaufnah
 Ein Docker-Container ist eine isolierte Umgebung für das Paketieren und Ausführen von Anwendungen. Docker bietet die Möglichkeit, eine Anwendung in Side-by-Side Containern auszuführen, um eine bessere Rechendichte zu erreichen. Sie können mehrere Container auf einem einzigen Host ausführen. Sie können diese Container einfach von einem Host zu einem anderen Host verschieben.
 ### Kennt die Docker-Befehle
 
-| Befehle           | Beschreibung
+| ##Befehle           | ##Beschreibung
 | --------------    | ------------------------------------
 | docker run        | Befehl zum Starten neuer Container
 | docker ps         | Überblick über die aktuellen Container, wie z.B. Namen, IDs und Status                                            
