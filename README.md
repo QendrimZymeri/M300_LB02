@@ -90,7 +90,7 @@ Ein Docker-Container ist eine isolierte Umgebung für das Paketieren und Ausfüh
 
 | Testfall                                                                                                                               | Resultat                                                                                                               |
 | -------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| Vom Client (192.168.30.9) auf http://192.168.30.20/ zugreifen                                                                          | Funktioniert. Die Homepage des Webservers wird angezeigt auf alle Geräte die sich im lokalen Netz befinden                                                              |                                              
+| Vom Client (192.168.30.9) auf http://192.168.30.20/ zugreifen                                                                          | Funktioniert. Die Homepage des Webservers wird angezeigt auf alle Geräte die sich im lokalen Netz befinden                                                                                                       
 
 
 
