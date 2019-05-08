@@ -61,7 +61,7 @@ Ein Docker-Container ist eine isolierte Umgebung für das Paketieren und Ausfüh
 ### Kennt die Docker-Befehle
 
 | Befehle     | Beschreibung
-| -------     | -----------
+| --------------    | -----------
 | docker run  | Befehl zum Starten neuer Container
 | docker ps   | Überblick über die aktuellen Container, wie z.B. Namen, IDs und Status
 | docker images | Liste lokaler Images aus, wobei Informationen zu Repository-Namen, Tag-Namen und Grösse enthalten sind
