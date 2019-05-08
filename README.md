@@ -60,15 +60,21 @@ Ein Image ist eine unveränderliche Datei, die im Wesentlichen eine Momentaufnah
 Ein Docker-Container ist eine isolierte Umgebung für das Paketieren und Ausführen von Anwendungen. Docker bietet die Möglichkeit, eine Anwendung in Side-by-Side Containern auszuführen, um eine bessere Rechendichte zu erreichen. Sie können mehrere Container auf einem einzigen Host ausführen. Sie können diese Container einfach von einem Host zu einem anderen Host verschieben.
 ### Kennt die Docker-Befehle
 
-| Befehl       | Beschreibung                                       |
-| ------------ | -------------------------------------------------- |
-| docker run   | Führt ein Befehl in einem neuen Container aus      |
-| docker start | Startet einen oder mehrere gestoppte Container     |
-| docker stop  | Stoppt einen oder mehrere laufende Container       |
-| docker build | Erstellt ein Image aus einem Docker-File           |
-| docker pull  | Ladet ein Image aus der Registry                   |
-| docker push  | Ladet ein Image in die Registry hoch               |
-| docker exec  | Führt einen Befehl in einem laufenden Container aus |
+| Befehle     | Beschreibung
+| -------     | -----------
+| docker run  | Befehl zum Starten neuer Container
+| docker ps   | Überblick über die aktuellen Container, wie z.B. Namen, IDs und Status
+| docker images | Liste lokaler Images aus, wobei Informationen zu Repository-Namen, Tag-Namen und Grösse enthalten sind
+| docker rm | Entfernt einen oder mehrere Container. Gibt die Namen oder IDs erfolgreich gelöschter Container zurück
+| docker rmi | Löscht das oder die angegebenen Images. Diese werden durch ihre ID oder Repository- und Tag-Namen spezifiziert
+| docker start | Startet einen (oder mehrere) gestoppte Container
+| docker stop | Stoppt einen oder mehrere Container (ohne sie zu entfernen). Nach dem Aufruf von docker stop für einen Container wird er in den Status »exited« überführt.
+|  docker kill  | Schickt ein Signal an den Hauptprozess (PID 1) in einem Container. Standardmässig wird SIGKILL gesendet, womit der Container sofort stoppt.
+| docker logs | Gibt die "Logs" für einen Container aus. Dabei handelt es sich einfach um alles, was innerhalb des Containers nach STDERR oder STDOUT geschrieben wurde.
+| docker inspect | Gibt umfangreiche Informationen zu Containern oder Images aus. Dazu gehören die meisten Konfigurationsoptionen und Netzwerkeinstellungen sowie Volumes-Mappings.
+| docker diff | Gibt die Änderungen am Dateisystem des Containers verglichen mit dem Image aus, aus dem er gestartet wurde.
+| docker top | Gibt Informationen zu den laufenden Prozessen in einem angegebenen Container aus.
+| docker build | Der Befehl docker build erfordert ein Dockerfile und einen Build Context. 
 
 
 ### Sicherheitsaspekte
@@ -84,7 +90,7 @@ Ein Docker-Container ist eine isolierte Umgebung für das Paketieren und Ausfüh
 
 | Testfall                                                                                                                               | Resultat                                                                                                               |
 | -------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| Vom Client (192.168.30.1) auf http://192.168.30.20/ zugreifen                                                                          | Funktioniert. Die Homepage des Webservers wird angezeigt auf alle Geräte die sich im lokalen Netz befinden                                                              |                                              
+| Vom Client (192.168.30.9) auf http://192.168.30.20/ zugreifen                                                                          | Funktioniert. Die Homepage des Webservers wird angezeigt auf alle Geräte die sich im lokalen Netz befinden                                                              |                                              
 
 
 
