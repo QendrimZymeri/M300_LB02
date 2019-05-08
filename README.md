@@ -48,7 +48,8 @@ $ git clone https://github.com/mc-b/M300      #Repository klonen
 
 
 ---
-
+### Docker-Container
+Ein Docker-Container ist eine isolierte Umgebung für das Paketieren und Ausführen von Anwendungen. Docker bietet die Möglichkeit, eine Anwendung in Side-by-Side Containern auszuführen, um eine bessere Rechendichte zu erreichen. Sie können mehrere Container auf einem einzigen Host ausführen. Sie können diese Container einfach von einem Host zu einem anderen Host verschieben.
 ### Kennt die Docker-Befehle
 
 | Befehl       | Beschreibung                                       |
