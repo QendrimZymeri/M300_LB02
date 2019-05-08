@@ -60,3 +60,48 @@ $ git clone https://github.com/mc-b/M300      #Repository klonen
 | docker pull  | Ladet ein Image aus der Registry                   |
 | docker push  | Ladet ein Image in die Registry hoch               |
 | docker exec  | Führt einen Befehl in einem laufenden Container aus |
+
+
+### Sicherheitsaspekte
+
+-   Lediglich der Port 80 des Web-Frontends und der Port 8080 der API wurdem via `LoadBalancer` nach Aussen freigegeben
+-   Container laufen in einer dedizierten virtuellen Maschine in der Google Cloud
+-   Die verwendeten Images definieren einen Benutzer und laufen nicht direkt als root
+-   In Kubernetes wurden die Container in einzelne Deployments aufgeteilt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Persönlicher Wissenstand im Bezug auf die wichtigsten Themen sind dokumentiert (Linux, Virtualisierung, Vagrant, Versionsverwaltung / Git, Mark Down, Systemsicherheit)
+Im Betrieb arbeite ich täglich mit Virtuellen Server (ESXI Umgebung). Da mir Vagrant sehr fremd war, fragte ich in der Firma nach, ob sich jemand mit Vagrant auskennt. Leider kannte sich niemand im Team mit Vagrant aus. Dank den ersten Input von Herr Kählin über Vagrant, konnte ich meinen Teamkollegen erzählen was Vagrant ist und was es so macht. Sie fanden das sehr spannend. 
+
+
+
+
+Im ganzen hat mir das Modul sehr Spass gemacht, auch wenn ich zu Beginn sehr viel Schwieriegkeiten hatte.
+Dank diesem Modul, weiss ich jetzt wie man Vagrant-Files erstellt und sie anwendet. 
+Das Vagrant hilft sehr und erleichtert die Aufgabe und spart sehr viel Zeit. Man kann in einem Vagrant-File mehrere Maschinen erstellen mit verschiedene Konfigurationen wie zB. Netzwerk usw. 
+In der Zukunft werde ich sicherlich weiter mit Vagrant arbeiten und experimentieren. 
+
+
