@@ -7,7 +7,7 @@
 -   03 - Sicherheitsaspekte
 -   04 - Abschluss
 
-## Persönlicher Stand
+### Persönlicher Stand
 
 Ich habe aus dem Betrieb schon einige Erfahrungen mit Virtualisierung gemacht.
 Mit Vagrant habe ich bisher noch keine Erfahrungen gemacht.
@@ -17,7 +17,7 @@ freue mich mehr darüber zu lernen und das in der Zukunft anzuwenden.
 Github hatte ich noch nie zuvor benutzt.Ehrlich gesagt habe ich nicht gewusst was das ist.
 ### Einrichten
 
-## Git bash
+### Git bash
 
 1. Git bash herunterladen 
 2. Git bash installieren
@@ -27,19 +27,19 @@ Anschliessend wird noch das Repository auf den lokalen Computer kopiert.
 $ git clone https://github.com/mc-b/M300      #Repository klonen
  ```
   
-## GitHub Account
+### GitHub Account
 
 1. GitHub Account erstellen
 2. Mit Git bash SSH Key erstellen
 3. SSH Key dem Agent hinzufügen
 4. SSH Key dem GitHub Konto hinzufügen
 
-## Virtualbox
+### Virtualbox
 
 1. Virtualbox herunterladen
 2. Virtualbox installieren
 
-## Visual Studio Code
+### Visual Studio Code
 
 1. Visual Studio Code herunterladen
 2. Visual Studio Code installieren
@@ -48,6 +48,14 @@ $ git clone https://github.com/mc-b/M300      #Repository klonen
 
 
 ---
+### Dockerfile
+Dockerfile ist eine Datei, die verwendet wird, um Images zu erstellen, indem Anweisungen aus einer Datei gelesen werden. Der Standardname wird als Dockerfile verwendet. Sie können eine Dockerdatei im aktuellen Verzeichnis mit spezifischen Anweisungen erstellen und ein benutzerdefiniertes Image nach Ihren Anforderungen erstellen.
+### Docker-Compose
+Docker Compose ist ein weiteres optimales Werkzeug für Docker zum Einrichten von Multi-Container-Umgebungen. Erstellen Sie damit eine einzige Compose-Datei mit der Definition aller Container mit ihren Umgebungen. Sie können ganz einfach einen einzigen Befehl verwenden, um Images zu erstellen und alle Container auszuführen.
+### Docker-Desktop
+Man muss Docker Desktop herunterladen und installieren, damit man Docker unter Windows bedienen kann. Sobald man das installiert hat, kann man im Hyper-V eine Virtuelle Maschine aufinden. 
+### Docker-Image
+Ein Image ist eine unveränderliche Datei, die im Wesentlichen eine Momentaufnahme eines Containers ist. Die Images können mit dem Build-Befehl erstellt werden.
 ### Docker-Container
 Ein Docker-Container ist eine isolierte Umgebung für das Paketieren und Ausführen von Anwendungen. Docker bietet die Möglichkeit, eine Anwendung in Side-by-Side Containern auszuführen, um eine bessere Rechendichte zu erreichen. Sie können mehrere Container auf einem einzigen Host ausführen. Sie können diese Container einfach von einem Host zu einem anderen Host verschieben.
 ### Kennt die Docker-Befehle
