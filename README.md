@@ -92,6 +92,10 @@ Ein Docker-Container ist eine isolierte Umgebung für das Paketieren und Ausfüh
 | Vom Client (192.168.30.9) auf http://192.168.30.20/ zugreifen                                                                          | Funktioniert. Die Homepage des Webservers wird angezeigt auf alle Geräte die sich im lokalen Netz befinden                                                                                                       
 
 
+*docker image ls* = mit diesem Befehl sieht man ob das Image erstellt wurde (test1)
+*curl http://localhost:8080* = Hier kann man testen ob der Webserver überhaupt funktioniert, oder einfach im Browser localhost eingeben. Es erscheint der Inhalt der index.html Datei
+
+
 
 
 
