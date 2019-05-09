@@ -1,0 +1,3 @@
+docker run -p 80:80/tcp -p 80:80/udp quero_webser
+
+docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container_name_or_id
