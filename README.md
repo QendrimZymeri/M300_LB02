@@ -50,6 +50,8 @@ $ git clone https://github.com/mc-b/M300      #Repository klonen
 ---
 ### Dockerfile
 Dockerfile ist eine Datei, die verwendet wird, um Images zu erstellen, indem Anweisungen aus einer Datei gelesen werden. Der Standardname wird als Dockerfile verwendet. Sie können eine Dockerdatei im aktuellen Verzeichnis mit spezifischen Anweisungen erstellen und ein benutzerdefiniertes Image nach Ihren Anforderungen erstellen.
+### Kubernetes
+Kubernetes ist eine beliebte Open-Source-Plattform für die Container-Orchestrierung - also für die Verwaltung von Anwendungen, die aus mehreren, weitgehend in sich geschlossenen Laufzeiten, den sogenannten Containern, bestehen. 
 ### Docker-Compose
 Docker Compose ist ein weiteres optimales Werkzeug für Docker zum Einrichten von Multi-Container-Umgebungen. Erstellen Sie damit eine einzige Compose-Datei mit der Definition aller Container mit ihren Umgebungen. Sie können ganz einfach einen einzigen Befehl verwenden, um Images zu erstellen und alle Container auszuführen.
 ### Docker-Desktop
