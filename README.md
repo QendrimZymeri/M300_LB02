@@ -79,10 +79,9 @@ Ein Docker-Container ist eine isolierte Umgebung für das Paketieren und Ausfüh
 
 ### Sicherheitsaspekte
 
--   Lediglich der Port 80 des Web-Frontends und der Port 8080 der API wurdem via `LoadBalancer` nach Aussen freigegeben
+-   Lediglich der Port 80 des Web-Frontends und der Port 8080 der nach Aussen freigegeben wurde
 -   Container laufen in einer dedizierten virtuellen Maschine in der Google Cloud
--   Die verwendeten Images definieren einen Benutzer und laufen nicht direkt als root
--   In Kubernetes wurden die Container in einzelne Deployments aufgeteilt
+
 
 
 
