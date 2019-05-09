@@ -112,15 +112,16 @@ Ein Docker-Container ist eine isolierte Umgebung für das Paketieren und Ausfüh
 
 
 
-Persönlicher Wissenstand im Bezug auf die wichtigsten Themen sind dokumentiert (Linux, Virtualisierung, Vagrant, Versionsverwaltung / Git, Mark Down, Systemsicherheit)
-Im Betrieb arbeite ich täglich mit Virtuellen Server (ESXI Umgebung). Da mir Vagrant sehr fremd war, fragte ich in der Firma nach, ob sich jemand mit Vagrant auskennt. Leider kannte sich niemand im Team mit Vagrant aus. Dank den ersten Input von Herr Kählin über Vagrant, konnte ich meinen Teamkollegen erzählen was Vagrant ist und was es so macht. Sie fanden das sehr spannend. 
+## Persönlicher Wissenstand im Bezug auf die wichtigsten Themen sind dokumentiert (Linux, Virtualisierung, Vagrant, Versionsverwaltung / Git, Mark Down, Systemsicherheit)
+
+Im Betrieb arbeite ich täglich mit Virtuellen Server (ESXI Umgebung). Da mir Docker und Vagrant sehr fremd war, fragte ich in der Firma nach, ob sich jemand mit Docker auskennt oder sogar das benutzt. Leider fand ich niemand in der Firma der das "beherrscht". Ich musste das selbst erlernen und mit Hilfe der Inputs vom Herr Kählin konnte ich etwas erstellen. Bevor ich mit Docker begonnen habe machte ich mich schlau wie das überhaupt funktioniert. Herr Kählin erklärte das uns und zeigte sogar noch ein Video dazu, aber ich hatte es nicht zu 100% verstanden und machte mich im Internet schlau, damit ich das verstehe. 
 
 
 
-
+##Reflexion
 Im ganzen hat mir das Modul sehr Spass gemacht, auch wenn ich zu Beginn sehr viel Schwieriegkeiten hatte.
-Dank diesem Modul, weiss ich jetzt wie man Vagrant-Files erstellt und sie anwendet. 
-Das Vagrant hilft sehr und erleichtert die Aufgabe und spart sehr viel Zeit. Man kann in einem Vagrant-File mehrere Maschinen erstellen mit verschiedene Konfigurationen wie zB. Netzwerk usw. 
-In der Zukunft werde ich sicherlich weiter mit Vagrant arbeiten und experimentieren. 
+Dank diesem Modul, weiss ich jetzt wie man Dockerfiles und Images erstellt und sie anwendet. 
+Das Docker hilft sehr und erleichtert die Aufgabe und spart sehr viel Zeit und Ressourcen! 
+In der Zukunft werde ich sicherlich weiter mit Docker arbeiten und experimentieren. 
 
 
