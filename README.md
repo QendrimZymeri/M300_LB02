@@ -83,6 +83,20 @@ Ein Docker-Container ist eine isolierte Umgebung für das Paketieren und Ausfüh
 -   Container laufen in einer dedizierten virtuellen Maschine in der Google Cloud
 
 
+## Netzwerkplan Nginx
++---------------------------------------------------------------+
+! Container-Engine: Docker                                      !	
++---------------------------------------------------------------+
+! Gast OS: Ubuntu 16.04                                         !	
++---------------------------------------------------------------+
+! Hypervisor: VirtualBox                                        !	
++---------------------------------------------------------------+
+! Host-OS: Windows 10                                           !	
++---------------------------------------------------------------+
+! Notebook - Schulnetz 10.x.x.x                                 !                 
++---------------------------------------------------------------+
+
+
 
 
 ### Testfälle
